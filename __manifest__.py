@@ -2,7 +2,7 @@
 {
     "name": "Skip required fields",
     "summary": """Skip required fields""",
-    'version': '1.0.0',
+    'version': '19.0.1.0.0',
     'category': 'Extra Tools',
     "license": "LGPL-3",
     "author": "Altair343",
@@ -10,9 +10,11 @@
     "depends": [
         "web",
     ],
-    "data": [
-        "views/assets.xml"
-    ],
+    "assets": {
+        "web.assets_backend": [
+            "skip_required_fields/static/src/js/form_button_upgrade.js",
+        ],
+    },
     "application": False,
     "installable": True,
     "auto_install": False,

@@ -34,8 +34,8 @@ Code example:
 
 This module is based on [xf_form_button_upgrade](https://apps.odoo.com/apps/modules/10.0/xf_form_button_upgrade) by XFanis, originally developed for Odoo 10.
 
-This version has been adapted and updated for Odoo 13, including:
-- Compatibility updates for Odoo 13
+This version has been adapted and updated for Odoo 19, including:
+- Compatibility updates for Odoo 19
 - Code improvements and bug fixes
 
 Special thanks to the original author for the initial implementation.
