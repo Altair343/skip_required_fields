@@ -23,9 +23,8 @@ Code example:
             </button>
             <!-- When you add a new button -->
             <button name="action_cancel" string="Cancel" type="object"
-                    states="registered" class="oe_highlight" groups="base.group_user"
+                    invisible="state != 'registered'" class="btn-primary"
                     context="{'skip_is_valid':['extension_agreement_id','observation']}"/>
-        </data>
     </field>
 </record>
 ```
